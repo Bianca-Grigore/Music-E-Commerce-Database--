@@ -24,12 +24,4 @@ Scripturile `.sql` incluse în acest proiect acoperă întregul ciclu de dezvolt
 * Definirea structurii (creare tabele, chei primare, chei externe și constrângeri de integritate).
 * Popularea bazei de date cu seturi de date de test (instrucțiuni INSERT).
 * Interogări complexe (join-uri, subcereri, funcții grup).
-* Implementarea logicii de business prin structuri PL/SQL (blocuri anonime, funcții, proceduri, pachete și triggere).
-
-## 🗂️ Structura Repository-ului
-* **`Diagrame/`** - Modelele vizuale ale bazei de date (Conceptuală și Entitate-Relație).
-* **`Documentatie/`** - Cerințele oficiale ale proiectului și documentația aferentă.
-* **`Scripturi SQL/`** - Rezolvarea cerințelor practice (exercițiile 4-13), separate în fișiere distincte pentru o evaluare ușoară.
-
----
-*Proiect realizat pentru evaluarea la disciplina Sisteme de Gestiune a Bazelor de Date (SGBD).*
+* Implementarea logicii de business prin structuri PL/SQL (blocuri anonime, tipuri de date complexe, funcții, proceduri, pachete și triggere).
