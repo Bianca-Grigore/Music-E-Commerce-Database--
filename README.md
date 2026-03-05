@@ -1,4 +1,4 @@
-# 🎵 Bază de Date pentru un Magazin Online de Muzică (Proiect SGBD)
+# 🎵 Bază de Date pentru un Magazin Online de Muzică 
 
 ## 📌 Descrierea Proiectului
 Acest repository conține arhitectura, designul și implementarea practică a unei baze de date relaționale destinate administrării complexe a unui magazin e-commerce specializat în articole muzicale. Proiectul modelează fluxurile informaționale reale dintr-o astfel de afacere, asigurând integritatea datelor și optimizarea operațiunilor zilnice, de la stocuri până la interacțiunea cu utilizatorul final.
