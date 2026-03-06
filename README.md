@@ -6,44 +6,44 @@ The primary goal of this project is to ensure strict data consistency, enforce c
 # 🎯 Project Objectives & Technical Scope
 Design and implementation of a fully normalized relational model (3NF).
 
-Advanced usage of SQL and PL/SQL to engineer backend business logic.
+Advanced usage of `SQL` and `PL/SQL` to engineer backend business logic.
 
 Implementation of robust mechanisms for audit, error handling, and process automation through triggers.
 
-Generation of complex reports and automated workflows using PL/SQL packages.
+Generation of complex reports and automated workflows using PL/SQL `packages`.
 
-Containerized database deployment using Docker for consistent testing environments.
+Containerized database deployment using `Docker` for consistent testing environments.
 
 # Database Structure & Business Modules
 The database schema integrates the essential commercial flows through the following entities:
 
 ## 1. Supply Chain & Inventory
-FURNIZOR (Suppliers): Stores supplier details, fiscal codes, and contact information.
+`FURNIZOR` (Suppliers): Stores supplier details, fiscal codes, and contact information.
 
-DEPOZIT (Warehouses): Manages physical storage locations.
+`DEPOZIT` (Warehouses): Manages physical storage locations.
 
-APROVIZIONARE (Associative): Tracks exactly which products are supplied by which vendor to specific warehouses, including acquisition prices and dates.
+`APROVIZIONARE` (Associative): Tracks exactly which products are supplied by which vendor to specific warehouses, including acquisition prices and dates.
 
 ## 2. Product Catalog
-PRODUS (Products): Core entity storing item details, current stock levels, and list prices.
+`PRODUS` (Products): Core entity storing item details, current stock levels, and list prices.
 
-ARTIST & PRODUS_ARTIST: Manages creators (musicians, bands) and their specific roles for each product.
+`ARTIST` & `PRODUS_ARTIST`: Manages creators (musicians, bands) and their specific roles for each product.
 
-CATEGORIE: Classifies products (e.g., Vinyl, Instruments, Accessories).
+`CATEGORIE`: Classifies products (e.g., Vinyl, Instruments, Accessories).
 
 ## 3. CRM & Order Processing
-CLIENT & ADRESA: Manages user profiles, contact info, and multiple delivery addresses.
+`CLIENT` & `ADRESA`: Manages user profiles, contact info, and multiple delivery addresses.
 
-COMANDA & DETALII_COMANDA: Tracks customer orders, statuses, and specific items purchased (with historical pricing to maintain financial integrity).
+`COMANDA` & `DETALII_COMANDA`: Tracks customer orders, statuses, and specific items purchased (with historical pricing to maintain financial integrity).
 
-LIVRARE: Manages shipping details, estimated dates, and AWBs.
+`LIVRARE`: Manages shipping details, estimated dates, and AWBs.
 
-RECENZIE: Stores customer reviews, ratings, and comments for purchased products.
+`RECENZIE`: Stores customer reviews, ratings, and comments for purchased products.
 
 ## 4. Marketing & Promotions
-CAMPANIE: Defines promotional campaigns (start/end dates, standard discounts).
+`CAMPANIE`: Defines promotional campaigns (start/end dates, standard discounts).
 
-PRODUS_CAMPANIE: Links specific products to active campaigns for special pricing.
+`PRODUS_CAMPANIE`: Links specific products to active campaigns for special pricing.
 
 ## Implemented Functionalities (PL/SQL)
 The project goes beyond simple data storage by engineering backend business logic directly into the database.
